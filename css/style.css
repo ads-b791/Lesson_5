@@ -1,0 +1,228 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Zen+Kurenaido&display=swap");
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Zen Kurenaido', sans-serif;*/
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #242424;
+}
+[class*="__title"] {
+	font-family: "Zen Kurenaido", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+[class*="__text"] {
+	text-indent: 25px;
+}
+
+.container {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header__title {
+	color: #188cff;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.header__text {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.header__image {
+	max-width: 1000px;
+	margin: 0 0 40px auto;
+}
+
+.about {
+	margin-bottom: 30px;
+}
+.about__title {
+	color: #6e8603;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.capacity__title,
+.rest__title,
+.sense__title,
+.sense__title,
+.stress__title,
+.structure__title {
+	font-size: 24px;
+	color: #06bc23;
+	margin-bottom: 25px;
+}
+
+.structure__text p {
+	margin-bottom: 10px;
+}
+.structure__image {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.capacity__text {
+	margin-bottom: 20px;
+}
+.rest__text p {
+	margin-bottom: 10px;
+}
+
+.rest__img {
+	padding: 20px 0;
+}
+
+.sense__text p {
+	margin-bottom: 10px;
+}
+.stress {
+	margin-bottom: 100px;
+}
+
+.stress__text p {
+	margin-bottom: 10px;
+}
+
+.dream__title {
+	color: #6c0386;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.dream__image-1 {
+	margin-bottom: 25px;
+	margin-left: 100px;
+}
+.dream__image-2 {
+	margin-bottom: 25px;
+	margin-left: 250px;
+}
+.dream__image-3 {
+	margin-bottom: 25px;
+	margin-left: 450px;
+}
+.dream__subtitle {
+	color: #ffc618;
+	font-size: 26px;
+	line-height: 1.2;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.dream__content span {
+	font-weight: 700;
+	color: #ff8418;
+}
+h5 {
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 20px;
+	color: #ff5b18;
+}
+ol {
+	max-width: 800px;
+	max-height: 500px;
+	overflow: auto;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	padding-left: 30px;
+}
+.homework {
+	color: #ff1838;
+	font-size: 28px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-weight: 700;
+	display: inline-block;
+	margin-bottom: 50px;
+	margin-left: 30px;
+}
+.footer {
+	height: 100px;
+}
+.footer__text.permision {
+	font-size: 28px;
+	color: #3c0c12;
+	text-transform: uppercase;
+	text-decoration: line-through;
+	text-align: center;
+	font-weight: 700;
+}
+.content {
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	max-width: 811px;
+	margin-left: 345px;
+	margin-top: 190px;
+	padding-bottom: 220px;
+}
+
+.content__title {
+	font-family: Lato, sans-serif;
+	font-weight: 900;
+	color: #1e212c;
+	font-size: 46px;
+	line-height: 1.3;
+	text-align: left;
+	font-style: normal;
+	text-transform: none;
+	margin-bottom: 66px;
+}
+.content__image {
+	margin-bottom: 60px;
+}
+
+.bold-1,
+.bold-2 {
+	color: #1e212c;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.bold-2 {
+	margin-left: 54px;
+}
+
+.content p {
+	color: #424551;
+	margin-bottom: 35px;
+}
+.last p {
+	margin-bottom: 220px;
+}
+.content__list {
+	margin-bottom: 35px;
+	margin-left: 30px;
+}
